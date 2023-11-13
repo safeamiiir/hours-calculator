@@ -49,7 +49,7 @@ function App() {
             sx: { flexDirection: 'row-reverse' }
           }}
           inputProps={{
-            sx: { pr: 1 }
+            sx: { pr: 0 }
           }}
           value={seconds}
           onChange={(e) => setSeconds(e.target.value)}

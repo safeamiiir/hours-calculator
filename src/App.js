@@ -46,6 +46,7 @@ function App() {
           sx={{ mb: 2, width: '25ch' }}
           InputProps={{
             startAdornment: <InputAdornment position="start"><QueryBuilderIcon /></InputAdornment>,
+            sx: { flexDirection: 'row-reverse' }
           }}
           value={seconds}
           onChange={(e) => setSeconds(e.target.value)}

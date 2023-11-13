@@ -44,7 +44,7 @@ function App() {
           id="outlined-start-adornment"
           sx={{ mb: 2, width: '25ch' }}
           InputProps={{
-            startAdornment: <InputAdornment position="start" sx={{ pr: 1.75 }}>min</InputAdornment>,
+            startAdornment: <InputAdornment position="start" sx={{ pr: 1.75 }}>sec</InputAdornment>,
             sx: { flexDirection: 'row-reverse' }
           }}
           inputProps={{

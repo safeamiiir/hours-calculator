@@ -44,7 +44,7 @@ function App() {
           id="outlined-start-adornment"
           sx={{ mb: 2, width: '25ch' }}
           InputProps={{
-            endAdornment: <InputAdornment position="start">min</InputAdornment>,
+            endAdornment: <InputAdornment position="start">sec</InputAdornment>,
           }}
           value={seconds}
           onChange={(e) => setSeconds(e.target.value)}

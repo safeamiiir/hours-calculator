@@ -38,6 +38,8 @@ function App() {
 
   return (
     <Container maxWidth="sm" sx={{ p: 2 }}>
+
+      <strong>From</strong>
       <Paper sx={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column', px: 3 }}>
         <Typography sx={{ my: 3 }}>Hours calculator</Typography>
         <TextField
@@ -46,6 +48,30 @@ function App() {
           sx={{ mb: 2, width: '25ch' }}
           InputProps={{
             startAdornment: <InputAdornment position="start"><QueryBuilderIcon /></InputAdornment>,
+          }}
+          value={seconds}
+          onChange={(e) => setSeconds(e.target.value)}
+        />
+        <Button variant="outlined" size="small" onClick={() => setTime(secondsToHoursMinutesSeconds(seconds))}>
+          Convert
+        </Button>
+        <Typography sx={{ my: 2 }}>{`${time.hours} hours, ${time.minutes} minutes, and ${time.seconds} seconds.`}</Typography>
+      </Paper>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <strong>to</strong>
+      <Paper sx={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column', px: 3 }}>
+        <Typography sx={{ my: 3 }}>Hours calculator</Typography>
+        <TextField
+          label="seconds here"
+          id="outlined-start-adornment"
+          sx={{ mb: 2, width: '25ch' }}
+          InputProps={{
+            endAdornment: <InputAdornment position="start">sec</InputAdornment>,
           }}
           value={seconds}
           onChange={(e) => setSeconds(e.target.value)}

@@ -1,5 +1,4 @@
 import { Button, Container, InputAdornment, Paper, TextField, Typography } from '@mui/material';
-import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
 import { useState } from 'react';
 
 //This function is ChatGPT created :D
@@ -45,7 +44,7 @@ function App() {
           id="outlined-start-adornment"
           sx={{ mb: 2, width: '25ch' }}
           InputProps={{
-            startAdornment: <InputAdornment position="start" sx={{ pr: 1.75 }}><QueryBuilderIcon /></InputAdornment>,
+            startAdornment: <InputAdornment position="start" sx={{ pr: 1.75 }}>min</InputAdornment>,
             sx: { flexDirection: 'row-reverse' }
           }}
           inputProps={{

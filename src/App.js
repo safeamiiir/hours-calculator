@@ -45,7 +45,7 @@ function App() {
           id="outlined-start-adornment"
           sx={{ mb: 2, width: '25ch' }}
           InputProps={{
-            startAdornment: <InputAdornment position="start"><QueryBuilderIcon /></InputAdornment>,
+            endAdornment: <InputAdornment position="start"><QueryBuilderIcon /></InputAdornment>,
           }}
           value={seconds}
           onChange={(e) => setSeconds(e.target.value)}

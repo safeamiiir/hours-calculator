@@ -41,7 +41,7 @@ function App() {
       <Paper sx={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column', px: 3 }}>
         <Typography sx={{ my: 3 }}>Hours calculator</Typography>
         <TextField
-          label="minutes here"
+          label="seconds here"
           id="outlined-start-adornment"
           sx={{ mb: 2, width: '25ch' }}
           InputProps={{

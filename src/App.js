@@ -45,8 +45,11 @@ function App() {
           id="outlined-start-adornment"
           sx={{ mb: 2, width: '25ch' }}
           InputProps={{
-            startAdornment: <InputAdornment position="start"><QueryBuilderIcon /></InputAdornment>,
+            startAdornment: <InputAdornment position="start" sx={{ pr: 1 }}><QueryBuilderIcon /></InputAdornment>,
             sx: { flexDirection: 'row-reverse' }
+          }}
+          inputProps={{
+            sx: { pr: 1 }
           }}
           value={seconds}
           onChange={(e) => setSeconds(e.target.value)}

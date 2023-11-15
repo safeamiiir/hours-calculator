@@ -1,7 +1,18 @@
 # hours-calculator
+
 Simple app that calculates hours, minutes, and seconds from just seconds
 
 ---
+
+### 🚀 Setup and Run
+
+To install package, you just need to do `yarn` (or `npm install`)
+<br>
+Then you can start it using `yarn start` (or `npm start`)
+
+---
+
+### ⚙️ How to use
 
 There are three branches you might need:
 
@@ -13,7 +24,7 @@ There are three branches you might need:
 
 ---
 
-Link to slides:
+### 📄 Link to presentation slides:
 
 PDF: https://github.com/safeamiiir/hours-calculator/blob/main/do_we_need_a_design_system.pdf
 

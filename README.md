@@ -13,4 +13,8 @@ There are three branches you might need:
 
 ---
 
-Link to slides: https://github.com/safeamiiir/hours-calculator/blob/main/do_we_need_a_design_system.pdf
+Link to slides:
+
+PDF: https://github.com/safeamiiir/hours-calculator/blob/main/do_we_need_a_design_system.pdf
+
+Apple keynote: https://github.com/safeamiiir/hours-calculator/blob/main/do_we_need_a_design_system.zip

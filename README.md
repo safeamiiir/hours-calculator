@@ -6,7 +6,7 @@ Simple app that calculates hours, minutes, and seconds from just seconds
 
 ### 🚀 Setup and Run
 
-To install package, you just need to do `yarn` (or `npm install`)
+To install packages, you just need to do `yarn` (or `npm install`)
 <br>
 Then you can start it using `yarn start` (or `npm start`)
 
@@ -14,7 +14,7 @@ Then you can start it using `yarn start` (or `npm start`)
 
 ### ⚙️ How to use
 
-There are three branches you might need:
+There are three branches other than `main` that might help you:
 
 `demo-changes`: what it might look like in the end.
 
